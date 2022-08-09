@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>De.Codificador</title>
+    <link rel="stylesheet" href="./assets/css/base.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header class="logo">
+        <h1>
+          <img
+            src="./assets/img/logo.svg"
+            alt="Logo da Alura"
+            aria-label="Codificardor, usado para codificar mensagens"
+          />
+        </h1>
+      </header>
+      <main>
+        <div class="main-container">
+          
+          <section class="user-text">
+            <textarea
+              autofocus
+              class="user-textin"
+              name="user-textin"
+              id="user-textin"
+              placeholder="Digite seu texto"
+            ></textarea>
+          </section>
+
+          <section class="textout-card">
+            <div class="textout">
+              <div class="no-text"><!-- show -->
+                <img
+                  class="no-text__image"
+                  src="./assets/img/no-text.svg"
+                  alt=""
+                />
+
+                <h2 class="no-text__title">Nenhuma mensagem encontrada</h2>
+                <p class="no-text__parag">
+                  Digite um texto que você deseja criptografar ou
+                  descriptografar.
+                </p>
+              </div>
+            </div>
+          </section>
+
+          <section class="btns-container">
+            <div class="info">
+              <img
+                class="icon"
+                src="./assets/icon/exclamation-circle.svg"
+                alt=""
+              />
+              <span>Apenas letras minúsculas e sem acento.</span>
+            </div>
+
+            <div class="btns">
+              <button class="btn-cript">Criptografar</button>
+              <button class="btn-decript">Descriptografar</button>
+            </div>
+          </section>
+
+          <section class="copy-container">
+            <button class="btn-copy">Copiar</button>
+          </section>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>
