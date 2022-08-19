@@ -12,6 +12,7 @@
       rel="stylesheet"
     />
 
+    <link rel="shortcut icon" href="./assets/icon/favicon.png" type="image/x-icon">
     <title>De.Codificador</title>
     <link rel="stylesheet" href="./assets/css/base.css" />
   </head>
@@ -32,6 +33,7 @@
           <section class="user-text">
             <textarea
               autofocus
+              minlength="5"
               class="user-textin"
               name="user-textin"
               id="user-textin"
@@ -39,9 +41,10 @@
             ></textarea>
           </section>
 
-          <section class="textout-card">
+          <section class="textout-card" id="textout-card">
             <div class="textout">
-              <div class="no-text"><!-- show -->
+              <textarea disabled class="textout__parag" name="textout__parag" id="textout__parag"></textarea>
+              <div class="no-text" id="no-text">
                 <img
                   class="no-text__image"
                   src="./assets/img/no-text.svg"
@@ -68,16 +71,36 @@
             </div>
 
             <div class="btns">
-              <button class="btn-cript">Criptografar</button>
-              <button class="btn-decript">Descriptografar</button>
+              <button class="btn-cript" id="btn-cript">Criptografar</button>
+              <button class="btn-decript" id="btn-decript">Descriptografar</button>
             </div>
           </section>
 
-          <section class="copy-container">
-            <button class="btn-copy">Copiar</button>
+          <section class="copy-container" id="copy-container">
+            <button class="btn-copy" id="btn-copy">Copiar</button>
           </section>
         </div>
       </main>
+      
+      <footer>
+          <p>Developed by
+            <a class="link" href="https://portfolio-mauricio-cardoso.vercel.app/" target="_blank">
+              Maurício Cardoso
+            </a>
+          </p>
+          <span>
+            <a href="https://www.linkedin.com/in/mauricioccardoso/" target="_blank">
+              <img class="linkedin-icon" src="assets/img/linkedin.svg" alt="Icone do Linkedin">
+            </a>
+          </span>
+          <span>
+            <a href="https://github.com/mauricioccardoso" target="_blank">
+              <img class="github-icon" src="assets/img/github.svg" alt="Icone do GitHub">
+            </a>
+          </span>
+      </footer>
     </div>
+
+    <script src="assets/js/main.js"></script>
   </body>
 </html>

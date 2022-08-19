@@ -1,6 +1,7 @@
 # **ONE** - Desafio 1  Decodificador
 
 Projeto criado durante o Oracle Next Education - ONE
+#challengeonedecodificador2
 
 ### Codificador
 
@@ -23,4 +24,4 @@ As "chaves" de criptografia que utilizaremos são:
 
 O projeto foi feito em HTML, CSS e JavaScript.
 Utilizei o grid para fazer o layout (para treinar minhas habilidades com grid).
- **WIP**
+Utilizei regex para fazer a verificação das letras.
