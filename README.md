@@ -1,8 +1,11 @@
 # **ONE** - Desafio 1  Decodificador
 
 Projeto criado durante o Oracle Next Education - ONE
+
+[Link do Projeto](https://one-decodificador.vercel.app/).
+
 #challengeonedecodificador2
-[Link do Projeto](https://one-decodificador-mauricioccardoso.vercel.app/).
+
 
 ### Codificador
 
@@ -23,7 +26,7 @@ As "chaves" de criptografia que utilizaremos são:
 
 ### Sobre o desenvolvimento
 
-O projeto foi feito em HTML, CSS e JavaScript.
-Totalmente responsivo.
-Utilizei o grid para fazer o layout (para treinar minhas habilidades com grid).
-Utilizei regex para fazer a verificação das letras.
+* O projeto foi feito em HTML, CSS e JavaScript.
+* Totalmente responsivo.
+* Utilizei o grid para fazer o layout (para treinar minhas habilidades com grid).
+* Utilizei regex para fazer a verificação das letras.
